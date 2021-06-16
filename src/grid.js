@@ -106,7 +106,7 @@ class Grid {
             overworld.lockBarrelInput = true;
         }
         if (indices.length > 0) {
-            this.score += Math.pow(4, (indices.length == 1 ? 0 : indices.length / 2));
+            this.score += 5 * Math.pow(4, (indices.length == 1 ? 0 : indices.length / 2));
         }
     }
 
@@ -134,7 +134,7 @@ class Grid {
             overworld.lockBarrelInput = true;
         }
         if (indices.length > 0) {
-            this.score += Math.pow(4, (indices.length == 1 ? 0 : indices.length / 2));
+            this.score += 5 * Math.pow(4, (indices.length == 1 ? 0 : indices.length / 2));
         }
     }
 
